@@ -9,8 +9,13 @@ const Attribute = value => {
     const valueObs = Observable(value);
     const validObs = Observable(true);
 
-    // todo: add required functions here
+    let   converter = id;
+    const setConverter      = newConverter => {
+        converter = newConverter;
+        setConvertedValue(valueObs.getValue());
+    }
+    const setValidator      = validator    => valueObs.onChange(newVal => validObs.setValue(validator(newVal)));
+    const setConvertedValue = newValue     => valueObs.setValue(  converter(newValue) );
 
-
-    return { valueObs, validObs }
+    return { valueObs, validObs, setConverter, setValidator, setConvertedValue }
 };
