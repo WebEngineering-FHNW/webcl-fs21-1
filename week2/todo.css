@@ -26,11 +26,21 @@ input[type=text]:focus {
     border-color:   orange;
     outline:        transparent none 0;
 }
-#todoContainer {
-    display:        grid;
-    grid-column-gap: 0.5em;
-    grid-template-columns: 1.7em auto auto;
-    margin-bottom:  0.5em ;
+.table {
+    margin: 1em 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr,td {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.table tr.selected {
+    background-color: gray;
+}
+.dirty {
+    font-style: italic;
+    font-weight: bold;
 }
 #plus, #fortune {
     position: relative;
