@@ -1,5 +1,49 @@
 # webcl-fs21-1
 
+# week3 Attribute Projektor
+[Todo App w3](https://webengineering-fhnw.github.io/webcl-fs21-1/week3/todo/View.html)
+
+**Inhalt**
+> - CSS goodie
+> - Präsentation
+> - Spezialaufgabe Master Detail View
+> - Tests und Inhalt zu Projektor
+> - Aufgaben
+
+**CSS goodie**
+[CSSTriangle](https://webengineering-fhnw.github.io/webcl-fs21-1/week3/CSSTriangle.html)
+> - Dreiecke in zwei verschiedenen Varianten zeichnen
+
+**Präsentation**
+> Thema: Accessibility / A11y
+> - WIA / Web Accessibility Initiative
+> - How not to 
+> - HTML5 Elemente
+> - Attribute
+> - Beispiel
+> - Aussehen
+> - Sonstiges
+
+**Master-Detail View**
+[MasterDetail](https://webengineering-fhnw.github.io/webcl-fs21-1/week2/todoMasterDetail/View.html)
+> - Problemstellung: Bestehende Anwendung zu Master Detail View umbauen.
+> - Neue ToDo Detail View dazugekommen, welche das Formular zum Bearbeiten enthält
+> - ToDo Items View wird zu einer nicht editierbaren Tabelle mit auswählbaren Zeilen
+> - ToDo Controller erhält einen Selection Observable welches sich die zurzeit selektierte Tabellenzeile merkt.
+
+**Tests und Inhalt zu Projektor**
+[Tests](https://webengineering-fhnw.github.io/webcl-fs21-1/week3/allTestsAsync.html)
+
+>- Änderung durch den Status "done" wird die Editierbarkeit des Textfeldes hervorgerufen. 
+> Feld nicht mehr editierbar. 
+> - Der Projektor erzeugt Views und deren Bindings aus den Präsentationsmodellen.
+> - Textfeld kann sich an die Editable-Property vom Text-Attribute dranhängen. 
+> - Danach können wir das Readonly Attribute setzen.
+
+**Aufgabe**
+> - Kurzeinführung in JSDoc
+
+
 # week2 Validationen, Konvertierungen, Attribute
 [Todo App w2](https://webengineering-fhnw.github.io/webcl-fs21-1/week2/todo/View.html)
 
