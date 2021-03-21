@@ -1,5 +1,51 @@
 # webcl-fs21-1
 
+# week4 Master-Detail
+[Person Master-Detail View](https://webengineering-fhnw.github.io/webcl-fs21-1/week4/person/View.html)
+
+**Inhalt**
+> - CSS goodie
+> - Präsentation
+> - Master-Detail
+> - Aufgaben
+
+**CSS goodie**
+
+[CSSCollapse](https://webengineering-fhnw.github.io/webcl-fs21-1/week4/Goodie-4-CSSCollapse.html)
+
+**Präsentation**
+> Thema: Kurze Einführung und Präsentation von JSDoc
+> - Installation
+> - Tags / List of tags
+> - Dokumentation
+> - Demonstration
+
+**Master-Detail**
+> Was wir brauchen *Wiederholung
+> - Observable, ObservableList, Scheduler, Testing und Classic MVC
+> - Attribute, Converter, Validator, reichhaltige Attribute, spezialisierte Projektoren
+> - Nun reichhaltige Attribute die wir nutzen, um sehr effiziente und ambitioniertem UIs umzusetzen.
+> 
+> Attribute
+> - Attribute die nicht nur einen Wert haben
+> - Validation und Konvertierungen
+> - Beliebige Properties effizient unterstützen: value, valid, label, help, error(s), mandatory, readonly, enabled, visible, widget-hint, regex, qualifier,...
+> 
+> Master-Detail
+> - Klassisch: Liste plus Formular
+> - Unoffensichtliche Master-Detail Views
+> - Wie mit der Selektion umgehen
+> - todo: when a line in the master view is clicked, we have to set the selection
+> - Gute Aufgabe: Beliebige Sachen löschen(gerade aus personProjector) und versuchen sie zu wiederherstellen
+
+**Aufgaben**
+> Aufgabe 1:
+> - Wie kann man eine Dirty-State Visualisierung einbauen und wie kann man das selbst in direct-manipulation UIs sinnvoll nutzen?
+> 
+> Aufgabe 2:
+> - Beliebigen Teil der Implementierung von Observable, Attribute, Modellen, Controllern oder Projektoren löschen und neu bauen bis die Tests wieder laufen.
+> 
+
 # week3 Attribute Projektor
 [Todo App w3](https://webengineering-fhnw.github.io/webcl-fs21-1/week3/todo/View.html)
 
