@@ -1,5 +1,69 @@
 # webcl-fs21-1
 
+# week5 Projector Pattern
+[Projector](https://webengineering-fhnw.github.io/webcl-fs21-1/week5/person/View.html)
+
+**Inhalt**
+> - CSS goodie
+> - Projector Pattern
+> - Aufgaben
+
+**CSS goodie**
+[BackBlur](https://webengineering-fhnw.github.io/webcl-fs21-1/week5/BackBlur.html)
+
+**Projector Pattern**
+> Context
+> - User interfaces mit mehreren Screens, die Klassifiziert werden in typische Schemas
+> - Widget Erstellung und die Bindung durch das UI Toolkit
+> - Abstraktion des Präsentationsmodells 
+>
+> Problemstellung
+> - Das Implementieren dedizierter Ansichten für viele Bildschirme, einschließlich der Modellbindung, führt zu viel Code, der erstellt, getestet und gewartet werden muss
+> - Darüber hinaus ist dieser Code UI-Toolkit-spezifisch und muss bei jeder Änderung des Toolkits ersetzt werden. Die schiere Menge an Code kann dies unerschwinglich teuer machen.
+>
+> Forces
+> - Statische Codegenerierung- und Vorlagenansätze bieten häufig nicht genügend Flexibilität bei der Ansichtskonstruktion
+> - das Modellbindungs- und Interaktionsparadigma
+> - dynamische Änderungen und Erweiterungen
+> - Zusammensetzungsaggregate
+> - Noch wichtiger ist, dass statisch erstellte Strukturen im Allgemeinen nur schwer erneut angewendet werden können, wenn die Struktur geändert werden muss
+> 
+> Solution
+> - Reiche Präsentationsmodelle und Attribute
+> - Abstract Factory (GOF): IProjector
+> - Projektionsmethoden erstellen IPresentations
+> - IPresentations sind zusammensetzbar
+> - IPresentations enthüllen innere Widgets
+> 
+> Sample usage:
+> - IProjector projector = new XXXProjector(controller, ...)
+> - Projection: IPresentation form = projector.createSimpleForm(model)
+> - Composition: IPresentation frame = projector.createFrame(form, 400, 200)
+> - Composite Structure
+> - Behavior: Validation
+> - Flexibility
+>
+> Resulting Context:
+> - Einfache Ansichtserstellung durch Auswahl einer Projektion aus einem Katalog
+> - Austauschbare Projektoren ermöglichen eine schnelle und sichere Migration sowie Mehrkanalunterstützung
+> - Dramatisch reduzierte Codegröße, weniger strukturelle Duplizierung, reduzierter Testaufwand und weniger Fehler
+> - Allgemeine, parametrisierte Projektoren können komplexer zu implementieren und zu testen sein
+> 
+> Known Uses
+> - OpenDolphin / Dolphin Platform
+> - UBS STMP
+> - KBS KKVS 4
+> - Various P5/P6 Projects (GroupHub, DuploFX,..)
+> - Eine Vielzahl von Kundenprojekten bei Ex-Canoo
+> 
+> Related Patterns
+> - Die Abhängigkeit der Komponenten von Daten ist umgekehrt. Kann als Projektionsziel verwendet werden
+> - Abstraktes UI-Toolkit. Anwendbar in einem begrenzten Kontext, in dem der kleinste gemeinsame Nenner aller UI-Technologien in Ordnung ist
+
+**Aufgaben**
+> - Baue einen Projektor, der die Lister der Personen als HTML table anzeigt mit Visualisierung der selektierten table row
+> - CSS goodie
+
 # week4 Master-Detail
 [Person Master-Detail View](https://webengineering-fhnw.github.io/webcl-fs21-1/week4/person/View.html)
 
