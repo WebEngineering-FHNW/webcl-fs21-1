@@ -1,0 +1,76 @@
+body {
+    margin-top:     2em;
+    font-family:    "Helvetica Neue", sans-serif;
+}
+
+/* ELEMENTS */
+.card {
+    max-width:  40em;
+    margin:     1em auto 4em;
+    padding:    2em;
+    box-shadow: 0 4px  8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* TEXT */
+h1 {
+    text-align: center;
+}
+
+/* BUTTONS */
+#plus {
+    position: relative;
+    top: -1em;
+}
+.delete {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 1.3em;
+}
+
+/* INPUT */
+input {
+    box-sizing: border-box;
+    width: 100%;
+
+    background: none;
+}
+input[type=text] {
+    font-size:      1.1em;
+    color:          darkblue;
+    border-width:   0 0 2px 0;
+}
+input[type=text]:focus {
+    border-color:   orange;
+    outline:        transparent none 0;
+}
+input.invalid {
+    color: red;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n) {
+    background: rgba(0,0,0,0.05);
+}
+tr.selected {
+    outline: solid 2px gold;
+}
+
+td, th {
+    padding: 8px;
+}
+
+tbody th {
+    width: 25%;
+}
+
+#masterContainer td:first-child {
+    width: 0;
+}
