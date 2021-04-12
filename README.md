@@ -1,5 +1,51 @@
 # webcl-fs21-1
 
+# week6 CSS 
+[CSS](https://webengineering-fhnw.github.io/webcl-fs21-1/week6/person/View.html)
+
+**Inhalt**
+>- CSS goodie
+>- Projector 
+>- CSS++ 
+>- Aufgaben
+ 
+**CSS goodie**
+[Glitch](https://webengineering-fhnw.github.io/webcl-fs21-1/week6/css-glitch/index.html)
+
+**Table projector**
+[Projector](https://webengineering-fhnw.github.io/webcl-fs21-1/table/person/View.html)
+
+**CSS++**
+> - Agenda *Wiederholung
+> - Make projector more generic
+> Table 
+> - Make projector replaceable
+> - Allow for projector-specific CSS
+> - Projector use (JavaScript)
+> import {
+>           projectFrame,
+>           projectSimpleForm
+> } from "xxxProjector.js"
+> projectFrame(projectSimpleForm, ...)
+> module interface und function composition
+> - Spezifisches CSS
+> Komponenten und Projektoren brauchen oft spezifische CSS Stile
+> 
+> CSS Issues
+> - Fehlende CSS Stildeklarationen
+> - Selektor-Konflikte
+> - Bewirtschaften der Abhängigkeiten
+> - (Schut vor | Erlauben von) Anpassungen
+> Projeziertes CSS
+> - @import von Projektor-spezifischen CSS
+> - CSS direkt auf dem Element: rootElement.style[propname] = value document.head.addChild(pageStyle)
+> - inline-style
+> 
+**Aufgaben**
+> - CSS goodie 
+> - Gestaltungskonzept (UI und UX) für Multi-Projekt Planning
+> - Dimensionen: Entwickler,Projekte,Zeit
+
 # week5 Projector Pattern
 [Projector](https://webengineering-fhnw.github.io/webcl-fs21-1/week5/person/View.html)
 
