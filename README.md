@@ -1,5 +1,58 @@
 # webcl-fs21-1
 
+# week7 SVG and Canvas
+
+**Inhalt**
+> - CSS goodie
+> - Multi-Project
+> - Projeziertes CSS
+> - Canvas
+> - Advanced Canvas
+> - SVG
+> - Aufgaben
+
+**CSS goodie**
+[Card](https://webengineering-fhnw.github.io/webcl-fs21-1/week7/css-goodie-zeltner/index.html)
+
+**Projeziertes CSS Wiederholung**
+> Summary:
+> - statisch (nicht projeziert)
+> @import von Projektor-spezifischen CSS
+> - für ganze page
+> document.head.addChild(pageStyle)
+> - für spezifisches Element
+> element.style[propname] = value
+
+**Canvas**
+[Canvas gauge](https://webengineering-fhnw.github.io/webcl-fs21-1/week7/canvas-gauge-sketch/View.html)
+> - Canvas erlaubt es uns mit Javascript zu zeichen
+> - Hooks für Reaktion auf Grössenänderung, wichtige Idee bei Canvas
+> - Auslesen von CSS Eigenschaften
+> - Interaktionen über Mouse Position, schwieriger als bei SVG
+
+**Advanced Canvas**
+> - Canvas aus Ebenen aufbauen: 
+> paint(buffer), cache, ctx.drawImage()
+> - Gut zum Merken mit einem buffer die Cachen, danach kann man wieder drüber zeichnen
+
+**SVG**
+[SVG Eyes](https://webengineering-fhnw.github.io/webcl-fs21-1/week7/svg-eyes-sketch/Eyes.html)
+
+> Vorteil von Canvas:
+> - Leichter mit Zeichentools arbeiten wie Figma und co. 
+> - Aus den Zeichentools exportieren: Oftmals muss man das exportierte SVG nachbearbeiten
+> 
+> Exporte führen gelegentlich zu:
+> - Wertebereinigung
+> - Strukturbereinigung
+> - CSS-hooks
+> - JS-hooks (Namespace berücksichtigt)
+
+**Aufgaben**
+> - CSS goodie
+> - Lidschlag animieren ("morphen")
+> - Bezier-Kurven erklären (quad,cube)
+ 
 # week6 CSS 
 [CSS](https://webengineering-fhnw.github.io/webcl-fs21-1/week6/person/View.html)
 
