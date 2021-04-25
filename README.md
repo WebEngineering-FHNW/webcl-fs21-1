@@ -1,4 +1,79 @@
 # webcl-fs21-1
+# week8 Animation
+
+**Inhalt**
+> - CSS goodie
+> - Bezierkurven
+> - Animation
+> - Aufgaben
+
+**CSS goodie**
+[Spotlight](https://webengineering-fhnw.github.io/webcl-fs21-1/week8/CssSpotlight.html)
+
+**Bézierkurven Präsentation**
+> - Bézi-was?
+> - Problemstellung
+> - Splines
+> - Bézierkurven
+> - Kubische Bézierkurve
+> - Anwendung
+
+**Animation**
+> Canvas Wiederholung
+> - "Paint" via JS
+> - Hooks to react to resize events
+> - Read CSS Properties
+> - Mouse/gesture interaction
+> 
+> Prinzipielle Idee - Common Layers
+> mehrere Ebenen zeichnen
+> - Glasspane [Glow]
+> - Control Elements
+> - Background [Shadow]
+> 
+> Advanced Canvas
+> - Canvas aus Ebenen aufbauen:
+> paint(buffer), cache, ctx.drawImage()
+    > [Spotlight](https://github.com/HanSolo/SteelSeries-Canvas)
+> 
+> SVG
+> - Bézierkurven tauchen in beiden Varianten vor 
+> - Painting tools -> program
+> - Clean values
+> - Clean structures
+> - CSS-hooks
+> - JS-hooks(resp.namespace)
+> 
+> Canvas or SVG?
+> - Painting non-shapes? -> Canvas
+> - Interaction with shapes? -> SVG
+> - Resizing, Painting tool support, animation, styling, efficiency,... mit beiden Varianten ermöglicht
+> 
+> Declarative Animations
+> - CSS transition, animation, @keyframes
+> - SVG <animation> element
+> - only for animatable properties like numeric values, transform, path (limited)
+> 
+> Programmed Animations: for much more control
+> - setTimeout() with recursive call 
+> - setInterval()
+> - requestAnimationFrame()
+> 
+> 
+> Beispiel: Bucket - [Spotlight](https://webengineering-fhnw.github.io/webcl-fs21-1/week8/svg-bucket-sketch/Bucket.html)
+> - Figma: Design animation stops as layers in paint tool
+> - Export & clean svg
+> - Style in CSS
+> - Animate in JS
+> 
+> Animation Frame
+> - Rendering ist ~ 60 frames / sec
+> - requestAnimationFrame(fn) ruft fn, wenn das UI bereit ist, übergibt die Zeit als Argument
+> - [Tween](https://webengineering-fhnw.github.io/webcl-fs21-1/week8/tween/View.html)
+> 
+**Aufgaben**
+> - CSS goodie
+> - Ab nächste Woche mehr Aufgaben
 
 # week7 SVG and Canvas
 
