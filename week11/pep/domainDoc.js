@@ -13,6 +13,6 @@
  * @type {object}
  * @property {!number} id    - unique integer number; mandatory.
  * @property {?string} color - color name like "green" ; optional.
- * @property {!string}  name - descriptive project name; at least three chars.
+ * @property {!string} name  - descriptive project name; at least three chars.
  * @example  {id:0, color: 'red',   name: "Personal Einsatz Planung"},
  */
