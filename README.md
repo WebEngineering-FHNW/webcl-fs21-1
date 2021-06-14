@@ -1,4 +1,67 @@
 # webcl-fs21-1
+
+# week9 Custom Elements, PEP Aufbau
+[CustomElements](https://webengineering-fhnw.github.io/webcl-fs21-1/week9/custom-elements/CustomElement.html )
+
+**Inhalt**
+> - Signature
+> - Custom Elements
+> - Verfahren
+> - Adoption
+> - Alternativen
+> - PEP
+> - Aufgaben
+
+**Signature sketch**
+
+[SVGSignatureSketch](https://webengineering-fhnw.github.io/webcl-fs21-1/week9/svg-signature-sketch/Signature.html )
+
+**Custom Elements**
+> - Selbstgemachte HTML Elemente
+> - Nutzung via Tags oder CreateElement
+> - Grundlage für WebComponents / Polymer (lit.dev)
+> 
+> Verfahren
+> - Erben von HTML Elementen
+> - Lifecycle Methoden überschreiben
+> - Registrieren
+>
+> Beachte!
+> - Elemente haben sehr viele Eigenschaften:
+> - aria-*, data-*, role, tabindex, focus, valid, hover, style, lang, .... die man spezifikationskonform bewirtschaften muss
+> - Das Bauen von UI Toolkits ist eine eigene Disziplin! 
+> 
+> Adoption
+> - Mit grossen Ambitionen und hoffnungen gestartet, aber häufig unpassend verwendet. 
+> - Sehr viele Projekte haben es verworfen.
+> - Somit hat der Ruf gelitten. Bsp in der Industrie, wollten die meisten Kunden keine Custom Components.
+> - Element, widget, control, component dienen der Darstellung aber nicht der Applikationsstrukturierung.
+> - Nicht geeignet für die Applikationsstrukturierung. 
+> - Allgemein gilt, Vererbung für Kompositionsnutzung → schlechte Idee, nicht nutzen!
+> 
+> Alternativen
+> - DIV
+> - JSX, TSX (Funktionen in HTML Syntax)
+> - Factories (Funktionen, die DIVs erzeugen)
+> - Projektoren -> Woche 5-6 
+> 
+> PEP
+> - Konzept rausfinden, technische Möglichkeit das Konzept zu Skizzieren
+> [SketchPEP](https://webengineering-fhnw.github.io/webcl-fs21-1/week9/pep-sketch/PEP.html)
+> - Personaleinsatzplanung
+> - Lösung gemeinsam aufbauen
+> - Wir schauen uns 2 Arten von UIs an.
+> - Für anspruchsvolle Lösungen gibt es keine Vorlagen und keinen Prozess.
+> 
+> Resources
+> - Mozilla Dev Network zu Web Components
+> - [Web_Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+
+**Aufgaben**
+> - Einbindung von SVG-Eyes oder Gauge in
+> - Angular | VUE | Svelte | React | Polymer | HyperApp | Halogen | ...
+> - View + Interaktion
+
 # week8 Animation
 
 **Inhalt**
